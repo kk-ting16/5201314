@@ -58,8 +58,8 @@ window.onload = function() {
                 const surpriseModal = document.createElement('div');
                 surpriseModal.className = 'surprise-modal';
                 surpriseModal.textContent = surpriseTexts[Math.floor(Math.random() * surpriseTexts.length)];
-                surpriseModal.style.left = `${10 + Math.random() * 80}vw`;
-                surpriseModal.style.top = `${10 + Math.random() * 80}vh`;
+                surpriseModal.style.left = `${5 + Math.random() * 80}vw`;
+                surpriseModal.style.top = `${5 + Math.random() * 80}vh`;
                 document.body.appendChild(surpriseModal);
 
                 setTimeout(() => {
@@ -90,3 +90,4 @@ window.onload = function() {
     cancelBtn.addEventListener('click', cancelGift);
     createSnow();
 };
+
